@@ -1,4 +1,8 @@
 compiler: clang
 
+os: linux
+dist: trusty
+
 script:
-    gcc -o main main.c
+  -  gcc -o main main.c
+  -  ./main
