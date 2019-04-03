@@ -1,0 +1,4 @@
+compiler: clang
+
+script:
+    gcc -o main main.c
